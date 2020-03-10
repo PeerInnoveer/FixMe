@@ -20,7 +20,6 @@ public class Broker {
             BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
             String line = null;
             String marketId;
-            int count = 0;
             while ((line = buffer.readLine()) != null) {
                 printWriter.println(Checksum.encode(line));
                 printWriter.println(id);

@@ -17,7 +17,6 @@ public class Market {
             System.out.println(string);
             String marketId = bufferedReader.readLine();
             String Id = null;
-            int count = 0;
             while (true) {
                 string = bufferedReader.readLine();
                 Id = bufferedReader.readLine();

@@ -39,7 +39,6 @@ public class ServerHandler implements Runnable {
                 System.out.println(string);
                 System.out.println("Broker ID: " + Router.brokerId);
                 String Id = null;
-                int count = 0;
                 while (!string.equals("exit")) {
                     string = brokerReader.readLine();
                     Id = brokerReader.readLine();
